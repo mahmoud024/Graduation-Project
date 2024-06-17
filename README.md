@@ -26,7 +26,7 @@ For more information on getting started, visit the [Espressif ESP-Drone Document
 
     As is previously, our drone design is light-weight, so we will need to conserve as much as possible on the drone weight, and therefore we found it best to construct our own PCB.
    
-3. **Parts**
+3. **Components**
 
    We faced some difficulties in providing the parts because we are restricted by the Israeli occupation and the high cost of the parts, but the parts were eventually provided with great difficulty.
 
@@ -84,12 +84,12 @@ Currently, we were able to construct the lifetime calculations on the ns3 simula
 #### Multi-path implementation is currently stagnate as some unexpected difficulties were faced.
 #
 
-- 1- code inspection and review of ns3 aodv implementtion
-- 2- code inspection of ns3 mobility models to obtain speed
-- 3- implantation of speed reliant timeout
-- 4- attempt at implementing multi-path protocol(fail)
-- 5- implement RREQ and RERR counters
-- 6- Simulation results at different max_distance parameter values
+- <h4>Part 1: code inspection and review of ns3 aodv implementtion</h4>
+- <h4>Part 2: code inspection of ns3 mobility models to obtain speed</h4>
+- <h4>Part 3: implantation of speed reliant timeout</h4>
+- <h4>Part 4: attempt at implementing multi-path protocol(fail)</h4>
+- <h4>Part 5: implement RREQ and RERR counter</h4>
+- <h4>Part 6: Simulation results at different max_distance parameter values</h4>
 
 
 
