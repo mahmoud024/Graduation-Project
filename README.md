@@ -35,15 +35,87 @@ For more information on getting started, visit the [Espressif ESP-Drone Document
     Steps to make our PCB:
 
     <div align="center">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/4eb8d103-1a8b-4c8b-9119-ecc378a2f171" alt="Image 3" heigh="100" width="233">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/c6a7d125-b92d-4774-b11b-b85f9ecfd1b1" alt="Image 3" heigh="100" width="233">
       <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/5a0af580-b99b-4a47-a10b-99e02f950d08" alt="Image 3" heigh="100" width="200">
       <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/9630c564-b713-4e2b-a183-aba882432c51" alt="Image 3" heigh="100" width="200">
-      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/4eb8d103-1a8b-4c8b-9119-ecc378a2f171" alt="Image 3" heigh="100" width="250">
-      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/c6a7d125-b92d-4774-b11b-b85f9ecfd1b1" alt="Image 3" heigh="100" width="250">
     </div>
 
+    The Link below show some videos While working on the production of the PCB (https://google.com)
+   
 3. **Components**
 
-   We faced some difficulties in providing the parts because we are restricted by the Israeli occupation and the high cost of the parts, but the parts were eventually provided with great difficulty.
+    We faced some difficulties in providing the parts because we are restricted by the Israeli occupation and the high cost of the parts, but the parts were eventually provided with great difficulty.
+
+    - ##### Basic Component List
+    <div align="center">
+      
+      | **Component**                         | **Number** | **Notes**                         |
+      |---------------------------------------|------------|-----------------------------------|
+      | Main board                            | 1          | ESP32-S2-WROVER + MPU6050         |
+      | 716 motor                             | 4          | Optional: 720 motor               |
+      | 716 motor rubber ring                 | 4          |                                   |
+      | 46mm propeller A                      | 2          | Optional: 55mm propeller          |
+      | 46mm propeller B                      | 2          |                                   |
+      | 300mAh 1s LiPo battery                | 1          | Optional: 350mAh                  |
+      | 1s LiPo battery charging panel        | 1          |                                   |
+      | 8-pin 25 mm male pins                 | 2          |                                   |
+      
+    </div>
+
+
+    - ##### Main Controller
+
+    <div align="center">
+
+      | **Chip**       | **Module**           | **Notes**                             |
+      |----------------|----------------------|---------------------------------------|
+      | ESP32-S2       | ESP32-S2-WROVER      | 4 MB flash, 2 MB PSRAM in module      |
+
+    </div>
+
+
+    - ##### Sensor
+   
+    <div align="center">
+  
+      | **Sensor**     | **Interface**        | **Notes**                             |
+      |----------------|----------------------|---------------------------------------|
+      | MPU6050        | I2C0                 | Main board sensor                     |
+   
+    </div>
+
+    - ##### Definition of Main Board IO
+
+    <div align="center">
+
+      | **Pins**       | **Function**         | **Notes**                             |
+      |----------------|----------------------|---------------------------------------|
+      | GPIO11         | I2C0_SDA             | Only for MPU6050                      |
+      | GPIO10         | I2C0_SCL             | Only for MPU6050                      |
+      | GPIO37         | SPI_MISO             | MISO                                  |
+      | GPIO35         | SPI_MOSI             | MOSI                                  |
+      | GPIO36         | SPI_CLK              | SCLK                                  |
+      | GPIO34         | SPI_CS0              | CS0*                                  |
+      | GPIO40         | I2C1_SDA             | VL53L1X                               |
+      | GPIO41         | I2C1_SCL             | VL53L1X                               |
+      | GPIO12         | interrupt            | MPU6050 interrupt                     |
+      | GPIO39         | BUZ_1                | BUZZ+                                 |
+      | GPIO38         | BUZ_2                | BUZZ-                                 |
+      | GPIO8          | LED_RED              | LED_1                                 |
+      | GPIO9          | LED_GREEN            | LED_2                                 |
+      | GPIO7          | LED_BLUE             | LED_3                                 |
+      | GPIO5          | MOT_1                |                                       |
+      | GPIO6          | MOT_2                |                                       |
+      | GPIO3          | MOT_3                |                                       |
+      | GPIO4          | MOT_4                |                                       |
+      | GPIO2          | ADC_7_BAT            | VBAT/2                                |
+      | GPIO1          | EXT_IO1              |                                       |
+
+    </div>
+
+
+---
 
 <h3 align="center">Software Part</h3>
 
@@ -55,15 +127,15 @@ The drawback to all this, is the low bandwidth, 290 bps at SF12, choosing a lowe
 
 <div align="center">
   
-| **Spreading Factor** | **Bitrate** | **Range** |
-|----------------------|-------------|-----------|
-| SF7                  | 5470 bps    | 2 Km      |
-| SF8                  | 3125 bps    | 4 Km      |
-| SF9                  | 1760 bps    | 6 Km      |
-| SF10                 | 980 bps     | 8 Km      |
-| SF11                 | 440 bps     | 11 Km     |
-| SF12                 | 290 bps     | 14 Km     |
---------------------------------------------------
+  | **Spreading Factor** | **Bitrate** | **Range** |
+  |----------------------|-------------|-----------|
+  | SF7                  | 5470 bps    | 2 Km      |
+  | SF8                  | 3125 bps    | 4 Km      |
+  | SF9                  | 1760 bps    | 6 Km      |
+  | SF10                 | 980 bps     | 8 Km      |
+  | SF11                 | 440 bps     | 11 Km     |
+  | SF12                 | 290 bps     | 14 Km     |
+
 </div>
 
 
@@ -79,7 +151,6 @@ routing protocol.
 | Routing Overhead                 | Low                         | High                         |
 | Number of Packets Dropped        | High                        | Low                          |
 | Performance Metrics              | Low                         | High                         |
--------------------------------------------------------------------------------------------------
 
 </div>
 
