@@ -82,6 +82,18 @@ Currently, we were able to construct the lifetime calculations on the ns3 simula
 
 
 #### Multi-path implementation is currently stagnate as some unexpected difficulties were faced.
+#
+
+- 1- code inspection and review of ns3 aodv implementtion
+- 2- code inspection of ns3 mobility models to obtain speed
+- 3- implantation of speed reliant timeout
+- 4- attempt at implementing multi-path protocol(fail)
+- 5- implement RREQ and RERR counters
+- 6- Simulation results at different max_distance parameter values
+
+
+
+
 
 
 
