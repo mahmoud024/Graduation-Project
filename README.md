@@ -25,7 +25,22 @@ For more information on getting started, visit the [Espressif ESP-Drone Document
 1. **PCB**
 
     As is previously, our drone design is light-weight, so we will need to conserve as much as possible on the drone weight, and therefore we found it best to construct our own PCB.
-   
+
+    Scheme Below show our PCB design:
+
+    <div align="center">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/fc382b12-97db-479c-a8b3-8afc9f63bedc" alt="Image 3" heigh="100" width="500">
+    </div>
+
+    Steps to make our PCB:
+
+    <div align="center">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/5a0af580-b99b-4a47-a10b-99e02f950d08" alt="Image 3" heigh="100" width="200">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/9630c564-b713-4e2b-a183-aba882432c51" alt="Image 3" heigh="100" width="200">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/4eb8d103-1a8b-4c8b-9119-ecc378a2f171" alt="Image 3" heigh="100" width="250">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/c6a7d125-b92d-4774-b11b-b85f9ecfd1b1" alt="Image 3" heigh="100" width="250">
+    </div>
+
 3. **Components**
 
    We faced some difficulties in providing the parts because we are restricted by the Israeli occupation and the high cost of the parts, but the parts were eventually provided with great difficulty.
