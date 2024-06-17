@@ -17,7 +17,7 @@ Since the scope of the project is rapidly expanding, we don’t have enough time
 to design and build a drone from scratch, instead we will be using Espressif
 Systems’ drone design.
 
-For more information on getting started with ESP-IDF, visit the [Espressif ESP-Drone Documentation](https://docs.espressif.com/projects/espressif-esp-drone/en/latest/getespidf.html).
+For more information on getting started, visit the [Espressif ESP-Drone Documentation](https://docs.espressif.com/projects/espressif-esp-drone/en/latest/getespidf.html).
 
 
 <h3 align="center">Hardware Part</h3>
