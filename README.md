@@ -1,4 +1,4 @@
-<h1 align="center">Graduated Project</h1>
+<h1 align="center">Graduation Project</h1>
 
 ## Our Idea
 
