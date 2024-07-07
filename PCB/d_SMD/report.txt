@@ -1,0 +1,99 @@
+Info: Processing symbol 'C1:Capacitor_THT:CP_Radial_D4.0mm_P1.50mm'.
+Info: Processing symbol 'BT1:Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm'.
+Info: Processing symbol 'U4:usini_sensors:module_mpu6050'.
+Info: Processing symbol 'U3:WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_'.
+Info: Processing symbol 'U2:Package_DIP:DIP-16_W7.62mm'.
+Info: Processing symbol 'SW1:Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled'.
+Info: Processing symbol 'R4:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R3:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R2:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'M1:Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm'.
+Info: Processing symbol 'M2:Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm'.
+Info: Processing symbol 'M3:Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm'.
+Info: Processing symbol 'M4:Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm'.
+Info: Processing symbol 'R1:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Updated R1 footprint filters to 'R_*'.
+Updated R1 sheetfile to 'd.kicad_sch'.
+Changed R1 footprint from 'Capacitor_THT:CP_Radial_D8.0mm_P3.80mm' to 'Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Updated R2 footprint filters to 'R_*'.
+Updated R2 sheetfile to 'd.kicad_sch'.
+Updated R2 sheetname to 'Root'.
+Changed R2 footprint from 'Capacitor_THT:CP_Radial_D4.0mm_P1.50mm' to 'Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Updated R1 sheetname to 'Root'.
+Warning: No net found for component U3 pad J2_9 (no pin J2_9 in symbol).
+Warning: No net found for component U3 pad J3_8 (no pin J3_8 in symbol).
+Warning: No net found for component U3 pad J3_3 (no pin J3_3 in symbol).
+Warning: No net found for component U3 pad J3_7 (no pin J3_7 in symbol).
+Warning: No net found for component U3 pad J2_2 (no pin J2_2 in symbol).
+Warning: No net found for component U3 pad J2_13 (no pin J2_13 in symbol).
+Warning: No net found for component U3 pad J3_18 (no pin J3_18 in symbol).
+Warning: No net found for component U3 pad J2_1 (no pin J2_1 in symbol).
+Warning: No net found for component U3 pad J3_10 (no pin J3_10 in symbol).
+Warning: No net found for component U3 pad J2_6 (no pin J2_6 in symbol).
+Warning: No net found for component U3 pad J3_16 (no pin J3_16 in symbol).
+Warning: No net found for component U3 pad J2_3 (no pin J2_3 in symbol).
+Warning: No net found for component U3 pad J2_16 (no pin J2_16 in symbol).
+Warning: No net found for component U3 pad J2_7 (no pin J2_7 in symbol).
+Warning: No net found for component U3 pad J3_4 (no pin J3_4 in symbol).
+Warning: No net found for component U3 pad J2_18 (no pin J2_18 in symbol).
+Warning: No net found for component U3 pad J3_14 (no pin J3_14 in symbol).
+Warning: No net found for component U3 pad J2_11 (no pin J2_11 in symbol).
+Warning: No net found for component U3 pad J2_17 (no pin J2_17 in symbol).
+Warning: No net found for component U3 pad J2_14 (no pin J2_14 in symbol).
+Warning: No net found for component U3 pad J2_5 (no pin J2_5 in symbol).
+Warning: No net found for component U3 pad J2_10 (no pin J2_10 in symbol).
+Warning: No net found for component U3 pad J3_2 (no pin J3_2 in symbol).
+Warning: No net found for component U3 pad J3_1 (no pin J3_1 in symbol).
+Warning: No net found for component U3 pad J2_12 (no pin J2_12 in symbol).
+Warning: No net found for component U3 pad J3_17 (no pin J3_17 in symbol).
+Warning: No net found for component U3 pad J3_13 (no pin J3_13 in symbol).
+Warning: No net found for component U3 pad J3_5 (no pin J3_5 in symbol).
+Warning: No net found for component U3 pad J2_15 (no pin J2_15 in symbol).
+Warning: No net found for component U3 pad J3_6 (no pin J3_6 in symbol).
+Warning: No net found for component U3 pad J3_11 (no pin J3_11 in symbol).
+Warning: No net found for component U3 pad J3_15 (no pin J3_15 in symbol).
+Warning: No net found for component U3 pad J3_9 (no pin J3_9 in symbol).
+Warning: No net found for component U3 pad J3_12 (no pin J3_12 in symbol).
+Warning: No net found for component U3 pad J2_8 (no pin J2_8 in symbol).
+Warning: No net found for component U3 pad J2_4 (no pin J2_4 in symbol).
+Error: U3 pad 5 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 12 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 13 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 17 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 18 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 19 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 23 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 27 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 34 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 35 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 36 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 37 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 38 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 39 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 6 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 3 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 1 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 7 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 10 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 21 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: Cannot add U4 (footprint 'usini_sensors:module_mpu6050' not found).
+Error: SW1 pad 3 not found in Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled.
+Error: U3 pad 8 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 4 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 33 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 32 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 25 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 14 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 22 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 2 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 9 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 11 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 20 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 15 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 16 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 26 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 28 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+Error: U3 pad 0 not found in WIFI_KIT_32__V3_(2):MODULE_WIFI_KIT_32__V3_.
+
+
+Info: Total warnings: 36, errors: 38.
