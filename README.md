@@ -21,29 +21,8 @@ For more information on getting started, visit the [Espressif ESP-Drone Document
 
 
 <h3 align="center">Hardware Part</h3>
-
-1. **PCB**
-
-    As is previously, our drone design is light-weight, so we will need to conserve as much as possible on the drone weight, and therefore we found it best to construct our own PCB.
-
-    Scheme Below show our PCB design:
-
-    <div align="center">
-      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/fc382b12-97db-479c-a8b3-8afc9f63bedc" alt="Image 3" heigh="100" width="500">
-    </div>
-
-    Steps to make our PCB:
-
-    <div align="center">
-      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/4eb8d103-1a8b-4c8b-9119-ecc378a2f171" alt="Image 3" heigh="90" width="233">
-      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/c6a7d125-b92d-4774-b11b-b85f9ecfd1b1" alt="Image 3" heigh="90" width="233">
-      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/5a0af580-b99b-4a47-a10b-99e02f950d08" alt="Image 3" heigh="100" width="200">
-      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/9630c564-b713-4e2b-a183-aba882432c51" alt="Image 3" heigh="100" width="200">
-    </div>
-
-    The Link below show some videos While working on the production of the PCB (https://google.com)
    
-3. **Components**
+1. **Components**
 
     We faced some difficulties in providing the parts because we are restricted by the Israeli occupation and the high cost of the parts, but the parts were eventually provided with great difficulty.
 
@@ -53,6 +32,7 @@ For more information on getting started, visit the [Espressif ESP-Drone Document
       | **Component**                         | **Number** | **Notes**                         |
       |---------------------------------------|------------|-----------------------------------|
       | Main board                            | 1          | ESP32 LORA V3 + MPU6050           |
+      | Frame                                 | 1          | We Build it using 3D printer      |
       | 716 motor                             | 4          | Optional: 720 motor               |
       | 46mm propeller A                      | 2          |                                   |
       | 46mm propeller B                      | 2          |                                   |
@@ -60,8 +40,28 @@ For more information on getting started, visit the [Espressif ESP-Drone Document
       
     </div>
 
+     1. **Frame**
 
-    - ##### Main Controller
+      Steps to make the Frame:
+
+      <div align="center">
+          <img src="https://github.com/mahmoud024/Graduation-Project/assets/83675107/9fdd4a80-abf6-4a71-997c-49bf59f386d8" alt="Description of your image">
+      </div>
+
+   Final Output:
+   
+    <div align="center">
+        <img src="https://github.com/mahmoud024/Graduation-Project/assets/83675107/1863fa9f-0a03-4924-9f0e-cd6063b6a2df" alt="Image 3" heigh="100" width="370">
+        <img src="https://github.com/mahmoud024/Graduation-Project/assets/83675107/5008ded2-6388-4104-a6dc-7f4ec9774773" alt="Image 3" heigh="100" width="300">
+    </div>
+
+  
+
+     2. **Main Controller**
+
+      <div align="center">
+          <img src="https://github.com/mahmoud024/Graduation-Project/assets/83675107/ddcf0431-47ec-44ce-981e-860ed99c0848" alt="Image 3" heigh="100" width="200">
+      </div>
 
     <div align="center">
 
@@ -72,8 +72,11 @@ For more information on getting started, visit the [Espressif ESP-Drone Document
 
     </div>
 
-
-    - ##### Sensor
+     3. **Sensor**
+        
+      <div align="center">
+          <img src="https://github.com/mahmoud024/Graduation-Project/assets/83675107/ce09b5fe-a602-4896-9a0d-7666c90b56e7" alt="Image 3" heigh="100" width="200">
+      </div>
    
     <div align="center">
   
@@ -82,6 +85,35 @@ For more information on getting started, visit the [Espressif ESP-Drone Document
       | MPU6050        | I2C0                 | Main board sensor                     |
    
     </div>
+
+    3. **Motor**
+        
+      <div align="center">
+          <img src="https://github.com/mahmoud024/Graduation-Project/assets/83675107/e7b8a98f-8b70-4aaa-8dc8-cffc97882f01" alt="Image 3" heigh="100" width="200">
+      </div>
+   
+    <div align="center">
+  
+      | **Motor**      | **Type**             | **Notes**                              |
+      |----------------|----------------------|----------------------------------------|
+      | 716 motor      | Coreless motor       | Use 720 if you have issue in altitude  |
+   
+    </div>
+
+    3. **Battery**
+        
+      <div align="center">
+          <img src="https://github.com/mahmoud024/Graduation-Project/assets/83675107/c964d249-2c8f-4658-ae71-17c734f56bef" alt="Image 3" heigh="100" width="200">
+      </div>
+   
+    <div align="center">
+  
+      | **Battery**             | **Voltage**     | **Dimensions**      | **Dimensions**    |
+      |-------------------------|-----------------|---------------------|-------------------|
+      | 1000mAh 1s LiPo battery | 3.7V (1S)       | 48 x 30 x 9         | 28.5              |
+   
+    </div>
+
 
     - ##### Definition of Main Board IO
 
@@ -101,7 +133,28 @@ For more information on getting started, visit the [Espressif ESP-Drone Document
 
     </div>
 
+2. **PCB**
 
+    As is previously, our drone design is light-weight, so we will need to conserve as much as possible on the drone weight, and therefore we found it best to construct our own PCB.
+
+    Scheme Below show our PCB design:
+
+    <div align="center">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/fc382b12-97db-479c-a8b3-8afc9f63bedc" alt="Image 3" heigh="100" width="500">
+    </div>
+
+    Steps to make our PCB:
+
+    <div align="center">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/4eb8d103-1a8b-4c8b-9119-ecc378a2f171" alt="Image 3" heigh="90" width="233">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/c6a7d125-b92d-4774-b11b-b85f9ecfd1b1" alt="Image 3" heigh="90" width="233">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/5a0af580-b99b-4a47-a10b-99e02f950d08" alt="Image 3" heigh="100" width="200">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/9630c564-b713-4e2b-a183-aba882432c51" alt="Image 3" heigh="100" width="200">
+    </div>
+
+    The Link below show some videos While working on the production of the PCB (https://google.com)
+
+    You Can Find All File You Needed in (PCB) Folder
 ---
 
 <h3 align="center">Software Part</h3>
