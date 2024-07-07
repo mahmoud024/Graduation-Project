@@ -4,10 +4,10 @@
 
 The goal of this project is to construct a physical FANET, outside the simulator, this can be done by constructing a number of drones built on the ESP-Drone repository, along with our own PCB and a 3D printed drone body. The FANET nodes will communicate with each other using LoRaWAN through our own modified AODV routing protocol. The FANET is planned to operate over the area of Birzeit University.
 
-Since we will be using light-weight drones for nodes, the weight of anything carried by drones is critical, for this reason we decided on using the LoRa32 microcontroller, that integrates the ESP32 chip along with the LoRa module in a compact package, which weighs about 18grams, our testing shows a current draw of 45-50 mA during normal operations, goes up by 10 mA during transmission/reception.
-- We currently have 2 LoRa32 microcontrollers in our possession
+Since we will be using light-weight drones for nodes, the weight of anything carried by drones is critical, for this reason we decided on using the LoRa32 microcontroller, that integrates the ESP32 chip along with the LoRa module in a compact package, which weighs about 18grams, our testing shows a current draw of 45-50 mA during normal operations, goes up by 10 mA during transmission/reception
+
 <div align="center">
-  <img src="https://github.com/mahmoud024/ESP-Drone-Graduated-Project-/assets/83675107/bb4fb2ca-eb1c-45c1-800c-01652d9669d8" alt="Image 3" heigh="100" width="500">
+  <img src="https://github.com/mahmoud024/Graduation-Project/assets/83675107/38d05341-0041-4593-b1ab-114193afe815" alt="Image 3" heigh="100" width="500">
 </div>
 
 
@@ -146,10 +146,10 @@ For more information on getting started, visit the [Espressif ESP-Drone Document
     Steps to make our PCB:
 
     <div align="center">
-      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/4eb8d103-1a8b-4c8b-9119-ecc378a2f171" alt="Image 3" heigh="90" width="233">
-      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/c6a7d125-b92d-4774-b11b-b85f9ecfd1b1" alt="Image 3" heigh="90" width="233">
-      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/5a0af580-b99b-4a47-a10b-99e02f950d08" alt="Image 3" heigh="100" width="200">
-      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/9630c564-b713-4e2b-a183-aba882432c51" alt="Image 3" heigh="100" width="200">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/4eb8d103-1a8b-4c8b-9119-ecc378a2f171" alt="Image 3" heigh="80" width="233">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/c6a7d125-b92d-4774-b11b-b85f9ecfd1b1" alt="Image 3" heigh="80" width="233">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/5a0af580-b99b-4a47-a10b-99e02f950d08" alt="Image 3" heigh="80" width="200">
+      <img src="https://github.com/mahmoud024/Graduated-Project/assets/83675107/9630c564-b713-4e2b-a183-aba882432c51" alt="Image 3" heigh="80" width="200">
     </div>
 
     The Link below show some videos While working on the production of the PCB (https://google.com)
