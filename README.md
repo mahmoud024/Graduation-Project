@@ -159,6 +159,34 @@ For more information on getting started, visit the [Espressif ESP-Drone Document
 
 <h3 align="center">Software Part</h3>
 
+#### Set up ESP-IDF Environment
+
+Please refer to [ ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/release-v4.4/esp32s2/get-started/index.html) and set up ESP-IDF environmnet step by step.
+
+* ESP-IDF branch release /v4.4 is suggested.
+
+* Please follow and complete all setup steps.
+
+* Build a example of ESP-IDF to make sure the setup is successful.
+
+#### Get Project Source Code
+###### Beta code, currently in the GitHub repository, is available by using git:
+
+```
+git clone https://github.com/espressif/esp-drone.git
+```
+###### The project software mainly consists of a flight control kernel, hardware drivers, and dependency libraries:
+
+* The flight control kernel is from Crazyflie, mainly including hardware abstraction layer and flight control program.
+
+* Hardware drivers are structured in files according to hardware interfaces, including I2C devcies and SPI devices.
+
+* Dependency libraries include the default components provided by ESP-IDF, as well as DSP from third parties.
+
+###### The code file structure is as follows:
+
+![image](https://github.com/mahmoud024/Graduation-Project/assets/83675107/fdbfd4ae-30cb-4e19-ba7c-6f02a8f83fd3)
+
 ## Step 2: Routing Protocol
 
 we will be using a LoRa module for transmission/Re- ception between nodes in our physical test bench, the LoRa module is chosen for its extended range, up to 14Km at SF12, and extremely low current draw, our own testing showed an 10 mA increase in current draw at transmission/re- ception at SF7, matching the datasheet specification.
