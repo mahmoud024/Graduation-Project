@@ -187,6 +187,40 @@ git clone https://github.com/espressif/esp-drone.git
 
 ![image](https://github.com/mahmoud024/Graduation-Project/assets/83675107/fdbfd4ae-30cb-4e19-ba7c-6f02a8f83fd3)
 
+#### Download and Install ESP-Drone APP
+
+ESP-Drone APP is available for Android and iOS.
+
+For Android, please scan the QR below to download ESP-Drone APP.
+
+<div align="center">
+  <img src="https://github.com/mahmoud024/Graduation-Project/assets/83675107/f0bf5afd-ef9f-47f9-810f-517adfedf553" alt="Image 3" heigh="100" width="300">
+</div>
+
+For iOS, please search and download the ESP-Drone APP in App Store.
+
+iOS APP source code: [ESP-Drone-iOS](https://github.com/EspressifApps/ESP-Drone-iOS)
+
+Android APP source code: [ESP-Drone-Android](https://github.com/EspressifApps/ESP-Drone-Android)
+
+#### Flight Control
+
+* Click “Connect” button/icon at your APP. When the connection is established successfully between your drone and APP, the LED on the drone blinks GREEN.
+
+* Slide “Thrust” slightly to take off the drone.
+
+* Control the flight by moving your fingers on the APP.
+
+<div align="center">
+  <img src="https://github.com/mahmoud024/Graduation-Project/assets/83675107/fc634272-96a3-4cb4-9ef0-766e493ac2e6" alt="Image 3" heigh="100" width="600">
+</div>
+
+<div align="center">
+  Android APP Interface
+</div>
+
+
+
 ## Step 2: Routing Protocol
 
 we will be using a LoRa module for transmission/Re- ception between nodes in our physical test bench, the LoRa module is chosen for its extended range, up to 14Km at SF12, and extremely low current draw, our own testing showed an 10 mA increase in current draw at transmission/re- ception at SF7, matching the datasheet specification.
